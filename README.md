@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Administrator class
 class Administrator {
     public void viewRecord() {
         System.out.println("Viewing records");
@@ -13,17 +12,15 @@ class Administrator {
 
     public void dataAnalysisAndMakeDecision() {
         System.out.println("Performing data analysis and making decisions");
-    }
+   }
 }
 
-// Children class
 class Children {
     public void receiveVaccine() {
         System.out.println("Receiving vaccine");
     }
 }
 
-// Parent class
 class Parent {
     public void receiveInformation() {
         System.out.println("Receiving information");
@@ -46,7 +43,6 @@ class Parent {
     }
 }
 
-// HealthcareProvider class
 class HealthcareProvider {
     public void provideVaccine() {
         System.out.println("Providing vaccine");
@@ -64,8 +60,6 @@ class HealthcareProvider {
         System.out.println("Providing healthcare history");
     }
 }
-
-// Main class
 public class Main {
     public static void main(String[] args) {
         Administrator admin = new Administrator();
